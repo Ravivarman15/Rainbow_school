@@ -13,6 +13,7 @@ import {
   User,
   MessageSquare,
   AlertCircle,
+  Bus,
 } from "lucide-react";
 import { schoolData } from "@/data/school";
 import { Badge } from "@/components/ui/Badge";
@@ -183,6 +184,17 @@ export default function ContactPage() {
                 <div className="text-[11px] text-slate-500">
                   Approach via Tindivanam-Orathi-Acharapakkam road corridor.
                 </div>
+              </div>
+
+              {/* School Transport Help Card */}
+              <div className="rounded-2xl border border-indigo-100 bg-indigo-50/60 p-5 text-xs text-slate-700 space-y-2 shadow-xs">
+                <div className="flex items-center gap-2 font-bold text-indigo-950">
+                  <Bus className="h-4 w-4 text-indigo-600" />
+                  <span>School Van & Transport Assistance</span>
+                </div>
+                <p className="text-[12px] text-slate-600 leading-relaxed">
+                  Looking to check if our school van reaches your village or pickup point? Select <strong>&quot;School Transport Enquiries&quot;</strong> in the contact form or message our office directly.
+                </p>
               </div>
             </div>
 

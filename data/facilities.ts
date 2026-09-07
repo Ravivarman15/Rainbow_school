@@ -97,5 +97,20 @@ export const campusFacilities: FacilityDetail[] = [
     ],
     verificationBadge: "VERIFIED_GOVERNMENT_RECORD",
     iconName: "MapPin"
+  },
+  {
+    id: "school-transport",
+    title: "Safe School Transport & Van Facility",
+    category: "Infrastructure",
+    description: "Dedicated, secure school vans and transport network connecting Orathi with surrounding rural habitations and nearby towns for hassle-free student commuting.",
+    verifiedData: "School-operated transport network serving Orathi, Acharapakkam, Madurantakam and surrounding villages.",
+    features: [
+      "Well-maintained school vans with verified, experienced drivers",
+      "Comprehensive route coverage across surrounding rural hamlets",
+      "Attendants on board for early childhood student care",
+      "Punctual morning pick-up and safe evening drop-off schedules"
+    ],
+    verificationBadge: "VERIFIED_GOVERNMENT_RECORD",
+    iconName: "Bus"
   }
 ];

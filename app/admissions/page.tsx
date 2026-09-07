@@ -9,6 +9,8 @@ import {
   AlertCircle,
   ShieldCheck,
   GraduationCap,
+  Bus,
+  MapPin,
 } from "lucide-react";
 import { schoolData } from "@/data/school";
 import { AdmissionEnquiryForm } from "@/components/sections/AdmissionEnquiryForm";
@@ -128,6 +130,46 @@ export default function AdmissionsPage() {
                 </ul>
               </Card>
 
+              {/* School Transport Facility */}
+              <Card className="p-6 sm:p-8 bg-gradient-to-br from-indigo-50/60 via-white to-sky-50/60 border-indigo-200/80 shadow-md">
+                <div className="flex items-center justify-between gap-2 mb-3">
+                  <div className="flex items-center gap-2.5">
+                    <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-600 text-white shadow-sm">
+                      <Bus className="h-5 w-5" />
+                    </div>
+                    <h3 className="font-heading text-lg font-bold text-slate-900">
+                      School Transport & Van Facility
+                    </h3>
+                  </div>
+                  <Badge variant="verified" size="sm">Available</Badge>
+                </div>
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+                  Rainbow provides safe, dependable school van and bus transit services for students from Pre-KG to Class 6 across Orathi and neighboring rural habitations.
+                </p>
+                <div className="space-y-2 rounded-xl bg-white/80 p-3.5 border border-indigo-100 text-xs text-slate-700">
+                  <div className="font-semibold text-indigo-950 flex items-center gap-1.5 mb-1.5">
+                    <MapPin className="h-3.5 w-3.5 text-indigo-600" />
+                    <span>Coverage Areas & Surrounding Routes:</span>
+                  </div>
+                  <div className="flex flex-wrap gap-1.5 pt-1">
+                    <span className="rounded-md bg-indigo-50 px-2 py-1 text-[11px] font-medium text-indigo-700 border border-indigo-100">Orathi & Veppankaranai</span>
+                    <span className="rounded-md bg-indigo-50 px-2 py-1 text-[11px] font-medium text-indigo-700 border border-indigo-100">Acharapakkam Block</span>
+                    <span className="rounded-md bg-indigo-50 px-2 py-1 text-[11px] font-medium text-indigo-700 border border-indigo-100">Madurantakam Rural</span>
+                    <span className="rounded-md bg-indigo-50 px-2 py-1 text-[11px] font-medium text-indigo-700 border border-indigo-100">Adjacent Villages</span>
+                  </div>
+                  <ul className="space-y-1.5 pt-2 text-[11px] text-slate-600">
+                    <li className="flex items-center gap-1.5">
+                      <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 shrink-0" />
+                      <span>Experienced and verified drivers with student care assistants</span>
+                    </li>
+                    <li className="flex items-center gap-1.5">
+                      <CheckCircle2 className="h-3.5 w-3.5 text-emerald-600 shrink-0" />
+                      <span>Dedicated morning pick-up and safe evening drop-off schedules</span>
+                    </li>
+                  </ul>
+                </div>
+              </Card>
+
               {/* Transparent Fee Notice */}
               <div className="rounded-2xl border border-amber-200 bg-amber-50/70 p-6 space-y-2">
                 <div className="flex items-center gap-2 font-bold text-amber-900 text-sm">
@@ -135,7 +177,7 @@ export default function AdmissionsPage() {
                   <span>Official Fee Schedule Information</span>
                 </div>
                 <p className="text-xs text-amber-800 leading-relaxed">
-                  In accordance with state educational regulatory standards and our institutional policy, official fee structures and payment installment plans are provided directly by our admissions office. Please visit our office in Orathi or contact us directly.
+                  In accordance with state educational regulatory standards and our institutional policy, official fee structures and transport fee details are provided directly by our admissions office. Please visit our office in Orathi or contact us directly.
                 </p>
               </div>
             </div>

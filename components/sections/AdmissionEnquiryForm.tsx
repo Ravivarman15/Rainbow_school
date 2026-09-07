@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Send, CheckCircle2, Phone, User, BookOpen, Mail, MessageSquare, AlertCircle } from "lucide-react";
+import { Send, CheckCircle2, Phone, User, BookOpen, Mail, MessageSquare, AlertCircle, Bus, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Toast } from "@/components/ui/Toast";
 import { schoolData } from "@/data/school";
@@ -14,6 +14,8 @@ export const AdmissionEnquiryForm: React.FC<{ isCard?: boolean }> = ({ isCard = 
     applyingClass: "LKG",
     phone: "",
     email: "",
+    transportRequired: "Yes - Bus / Van Required",
+    villageLocation: "",
     message: "",
   });
 
@@ -55,6 +57,8 @@ export const AdmissionEnquiryForm: React.FC<{ isCard?: boolean }> = ({ isCard = 
       applyingClass: formData.applyingClass,
       phone: formData.phone,
       email: formData.email || undefined,
+      transportRequired: formData.transportRequired || undefined,
+      villageLocation: formData.villageLocation || undefined,
       message: formData.message || undefined,
     });
 
@@ -75,6 +79,8 @@ export const AdmissionEnquiryForm: React.FC<{ isCard?: boolean }> = ({ isCard = 
         applyingClass: "LKG",
         phone: "",
         email: "",
+        transportRequired: "Yes - Bus / Van Required",
+        villageLocation: "",
         message: "",
       });
       setErrors({});
@@ -188,6 +194,44 @@ export const AdmissionEnquiryForm: React.FC<{ isCard?: boolean }> = ({ isCard = 
                 {errors.phone}
               </p>
             )}
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          {/* Transport Facility */}
+          <div>
+            <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
+              School Transport Facility
+            </label>
+            <div className="relative">
+              <select
+                value={formData.transportRequired}
+                onChange={(e) => setFormData({ ...formData, transportRequired: e.target.value })}
+                className="w-full rounded-xl border border-slate-300 bg-slate-50/50 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:bg-white focus:outline-none"
+              >
+                <option value="Yes - Bus / Van Required">🚌 Yes — Need Van / Bus Facility</option>
+                <option value="No - Self Transport">🚶 No — Self Drop & Pick up</option>
+                <option value="Need Route & Timing Details">ℹ️ Need Route & Fee Details</option>
+              </select>
+              <Bus className="absolute right-3 top-3 h-4 w-4 text-slate-400 pointer-events-none" />
+            </div>
+          </div>
+
+          {/* Village / Area */}
+          <div>
+            <label className="block text-xs font-semibold uppercase tracking-wider text-slate-700 mb-1">
+              Village / Residential Area <span className="text-slate-400 lowercase font-normal">(optional)</span>
+            </label>
+            <div className="relative">
+              <input
+                type="text"
+                value={formData.villageLocation}
+                onChange={(e) => setFormData({ ...formData, villageLocation: e.target.value })}
+                placeholder="e.g. Orathi, Acharapakkam, Veppankaranai"
+                className="w-full rounded-xl border border-slate-300 bg-slate-50/50 px-3.5 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 focus:border-indigo-600 focus:bg-white focus:outline-none"
+              />
+              <MapPin className="absolute right-3 top-3 h-4 w-4 text-slate-400 pointer-events-none" />
+            </div>
           </div>
         </div>
 

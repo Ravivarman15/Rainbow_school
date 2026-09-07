@@ -28,6 +28,8 @@ interface AdmissionFormData {
   applyingClass: string;
   phone: string;
   email?: string;
+  transportRequired?: string;
+  villageLocation?: string;
   message?: string;
 }
 
@@ -45,6 +47,14 @@ export function buildAdmissionMessage(data: AdmissionFormData): string {
 
   if (data.email) {
     lines.push(`📧 *Email:* ${data.email}`);
+  }
+
+  if (data.transportRequired) {
+    lines.push(`🚌 *School Transport:* ${data.transportRequired}`);
+  }
+
+  if (data.villageLocation) {
+    lines.push(`📍 *Location / Village:* ${data.villageLocation}`);
   }
 
   lines.push(``);

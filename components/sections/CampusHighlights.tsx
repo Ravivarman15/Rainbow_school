@@ -10,6 +10,7 @@ import {
   ArrowRight,
   Zap,
   CheckCircle,
+  Bus,
 } from "lucide-react";
 import { campusFacilities } from "@/data/facilities";
 import { Card } from "@/components/ui/Card";
@@ -24,6 +25,7 @@ const iconMap: Record<string, React.ElementType> = {
   ShieldCheck,
   MapPin,
   Zap,
+  Bus,
 };
 
 export const CampusHighlights: React.FC = () => {

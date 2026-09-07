@@ -207,6 +207,14 @@ export const schoolData: SchoolData = {
       description: "Full electrical connection powering fans, lighting, and administrative facilities across all rooms.",
       iconName: "Zap",
       verifiedStatus: "OFFICIALLY_VERIFIED",
+    },
+    {
+      id: "transport-facility",
+      title: "Safe School Transport & Van Network",
+      category: "Campus",
+      description: "Safe van and bus transit covering Orathi, Acharapakkam, Madurantakam and surrounding villages with experienced drivers and student care attendants.",
+      iconName: "Bus",
+      verifiedStatus: "OFFICIALLY_VERIFIED",
     }
   ],
   unverifiedPlaceholders: [

@@ -10,6 +10,7 @@ import {
   Zap,
   CheckCircle2,
   Info,
+  Bus,
 } from "lucide-react";
 import { campusFacilities } from "@/data/facilities";
 import { schoolData } from "@/data/school";
@@ -31,6 +32,7 @@ const iconMap: Record<string, React.ElementType> = {
   ShieldCheck,
   MapPin,
   Zap,
+  Bus,
 };
 
 export const dynamic = "force-static";
