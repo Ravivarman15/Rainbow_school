@@ -233,10 +233,10 @@ export const LifeAtRainbow: React.FC<LifeAtRainbowProps> = ({
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="space-y-2 text-center md:text-left">
                 <span className="text-xs font-bold text-indigo-600 uppercase tracking-wider">
-                  START YOUR CHILD'S JOURNEY
+                  START YOUR CHILD&apos;S JOURNEY
                 </span>
                 <h3 className="font-heading text-xl sm:text-3xl font-bold text-slate-900">
-                  See Your Child's Journey Begin at Rainbow
+                  See Your Child&apos;s Journey Begin at Rainbow
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 max-w-xl">
                   Want to learn more about our bilingual curriculum, dedicated educators, and admissions for Pre-KG through Class 6?
