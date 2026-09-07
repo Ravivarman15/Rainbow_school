@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   MapPin,
   Phone,
@@ -26,8 +27,14 @@ export const Footer: React.FC = () => {
           {/* Brand & Overview Column */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-600 to-slate-900 text-white font-heading font-black text-2xl shadow-lg border border-indigo-400/20">
-                R
+              <div className="flex h-12 w-12 items-center justify-center rounded-full overflow-hidden bg-white shadow-lg border border-slate-700">
+                <Image
+                  src="/images/logo.png"
+                  alt="Rainbow Matriculation School Logo"
+                  width={48}
+                  height={48}
+                  className="object-contain"
+                />
               </div>
               <div>
                 <h3 className="font-heading text-lg sm:text-xl font-bold tracking-tight text-white">

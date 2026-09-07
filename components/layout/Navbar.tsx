@@ -2,10 +2,10 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  GraduationCap,
   Home,
   BookOpen,
   Building2,
@@ -80,9 +80,15 @@ export const Navbar: React.FC = () => {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           {/* Clean Brand Mark */}
           <Link href="/" className="group flex items-center gap-3">
-            <div className="relative flex h-10 w-10 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-2xl bg-indigo-600 text-white shadow-sm transition-transform duration-300 group-hover:scale-105">
-              <GraduationCap className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
-              <div className="absolute -bottom-0.5 left-2 right-2 h-[2px] rounded-full bg-amber-400"></div>
+            <div className="relative flex h-10 w-10 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-full overflow-hidden bg-white shadow-sm transition-transform duration-300 group-hover:scale-105 border border-slate-200">
+              <Image
+                src="/images/logo.png"
+                alt="Rainbow Matriculation School Logo"
+                width={44}
+                height={44}
+                className="object-contain"
+                priority
+              />
             </div>
 
             <div className="flex flex-col">
@@ -262,8 +268,14 @@ export const Navbar: React.FC = () => {
               {/* Drawer Top Header */}
               <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4 bg-slate-50/95">
                 <div className="flex items-center gap-2.5">
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-indigo-600 text-white shadow-xs">
-                    <GraduationCap className="h-5 w-5" />
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full overflow-hidden bg-white shadow-xs border border-slate-200">
+                    <Image
+                      src="/images/logo.png"
+                      alt="Rainbow Matriculation School Logo"
+                      width={36}
+                      height={36}
+                      className="object-contain"
+                    />
                   </div>
                   <div>
                     <div className="flex items-center gap-1.5">
