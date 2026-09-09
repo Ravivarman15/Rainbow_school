@@ -8,7 +8,7 @@ export interface NavItem {
 export const mainNavigation: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about", description: "Our heritage, vision, values & leadership" },
-  { label: "Academics", href: "/academics", description: "Pre-Primary to Grade 6 curriculum & methodology" },
+  { label: "Academics", href: "/academics", description: "Pre-Primary to Grade 8 curriculum & methodology" },
   { label: "Campus & Facilities", href: "/campus", description: "Verified physical facilities, library & recreation" },
   { label: "Student Life", href: "/student-life", description: "Sports, cultural events, clubs & activities" },
   { label: "Admissions", href: "/admissions", description: "Enrolment procedure, requirements & online enquiry" },

@@ -49,22 +49,23 @@ export const academicStages: AcademicStage[] = [
     keyOutcomes: ["Independent reading and creative writing", "Mental math and problem-solving agility", "Scientific observation of nature & surroundings", "Civic responsibility and peer respect"]
   },
   {
-    id: "middle-transition",
-    stageName: "Upper Primary / Middle School",
-    grades: "Class 6",
-    ageGroup: "11 – 12 Years",
-    focus: "Subject specialization, analytical problem-solving, and disciplined study habits.",
+    id: "middle-school",
+    stageName: "Upper Primary & Middle School",
+    grades: "Class 6, Class 7 & Class 8",
+    ageGroup: "11 – 14 Years",
+    focus: "Subject specialization, experimental science, analytical problem-solving, and disciplined study habits.",
     description:
-      "Grade 6 serves as an essential transition into advanced middle school academics. Students encounter dedicated branches of Science and Social Science while solidifying higher-level linguistic and computational competence.",
+      "Our middle school wing (Classes 6, 7 & 8) equips students for higher secondary academic rigor. Students explore dedicated branches of Physics, Chemistry, Biology, Mathematics, Social Sciences, and advanced bilingual communication while building strong character and leadership skills.",
     curriculumHighlights: [
       "Integrated Science with practical demonstrations (Physics, Chemistry, Biology fundamentals)",
-      "Social Science (History, Geography, Civics)",
-      "Advanced algebraic and geometric concepts",
-      "Bilingual essay writing, debating, and presentation skills",
-      "Structured examinations and continuous comprehensive assessment"
+      "Social Science (History, Geography, Civics, Economics)",
+      "Advanced algebraic, geometric, and numerical reasoning",
+      "Bilingual essay writing, debating, recitation & presentation skills",
+      "Computer applications, digital literacy & logical problem solving",
+      "Structured examinations, continuous comprehensive assessment, and sports training"
     ],
-    subjects: ["Advanced English", "Tamil Second Language", "Mathematics (Arithmetic, Algebra, Geometry)", "General Science", "Social Science", "Computer Fundamentals", "Physical Education"],
-    keyOutcomes: ["Critical reasoning across discrete disciplines", "Methodical test preparation and academic self-discipline", "Clear argumentative oral and written presentation"]
+    subjects: ["Advanced English Language & Literature", "Tamil Second Language (இரண்டாம் மொழி)", "Mathematics (Arithmetic, Algebra, Geometry)", "General Science (Physics, Chemistry, Biology)", "Social Science", "Computer Science & Digital Basics", "Physical & Moral Education"],
+    keyOutcomes: ["Critical reasoning across discrete academic disciplines", "Methodical test preparation and academic self-discipline", "Confident bilingual oral and written communication", "Readiness for High School curriculum"]
   }
 ];
 

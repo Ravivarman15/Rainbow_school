@@ -33,9 +33,9 @@ export const Hero: React.FC = () => {
             {/* Top pill badge */}
             <div className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-white px-4 py-1.5 text-xs font-semibold text-indigo-900 shadow-xs">
               <span className="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>Admissions Open 2026–2027</span>
+              <span>Admissions Open</span>
               <span className="text-slate-300">•</span>
-              <span className="text-emerald-700 font-bold">Pre-KG to Class 6</span>
+              <span className="text-emerald-700 font-bold">Pre-KG to Class 8</span>
             </div>
 
             {/* Main Headline */}

@@ -42,13 +42,13 @@ export default function HomePage() {
             {/* Left Content */}
             <div className="lg:col-span-5 space-y-6">
               <Badge variant="rainbow" size="md">
-                Admissions 2026–2027
+                Admissions Open
               </Badge>
               <h2 className="font-heading text-3xl sm:text-4xl font-bold tracking-tight text-slate-900 leading-tight">
                 Give Your Child the Foundation for a Bright Future
               </h2>
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Admissions are currently underway for Pre-KG, LKG, UKG, and Classes 1 through 6. Connect with our Orathi campus office for an appointment or tour.
+                Admissions are currently underway for Pre-KG, LKG, UKG, and Classes 1 through 8. Connect with our Orathi campus office for an appointment or tour.
               </p>
 
               <div className="space-y-3 rounded-2xl border border-indigo-100 bg-white p-5 shadow-sm text-xs sm:text-sm text-slate-700">

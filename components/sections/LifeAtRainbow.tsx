@@ -107,7 +107,7 @@ export const LifeAtRainbow: React.FC<LifeAtRainbowProps> = ({
                 size="sm"
                 className="gap-1.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold shadow-xs"
               >
-                <span>Admission Enquiry 2026–27</span>
+                <span>Admissions Open</span>
                 <ArrowRight className="h-3.5 w-3.5" />
               </Button>
             </Link>
@@ -239,7 +239,7 @@ export const LifeAtRainbow: React.FC<LifeAtRainbowProps> = ({
                   See Your Child&apos;s Journey Begin at Rainbow
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 max-w-xl">
-                  Want to learn more about our bilingual curriculum, dedicated educators, and admissions for Pre-KG through Class 6?
+                  Want to learn more about our bilingual curriculum, dedicated educators, and admissions for Pre-KG through Class 8?
                 </p>
               </div>
 

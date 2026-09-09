@@ -60,7 +60,7 @@ export default function AboutPage() {
             <div className="border-r border-slate-100 last:border-0 pr-4">
               <span className="text-xs font-semibold text-slate-400 uppercase">Educational Wing</span>
               <div className="font-heading text-lg sm:text-xl font-bold text-slate-900 mt-1">
-                Pre-KG to Class 6
+                Pre-KG to Class 8
               </div>
             </div>
             <div>

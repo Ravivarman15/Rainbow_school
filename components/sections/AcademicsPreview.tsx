@@ -22,7 +22,7 @@ export const AcademicsPreview: React.FC = () => {
             Academic Excellence & Values
           </Badge>
           <h2 className="font-heading text-2xl sm:text-4xl font-bold tracking-tight text-slate-900">
-            A Nurturing Learning Path from Kindergarten to Class 6
+            A Nurturing Learning Path from Kindergarten to Class 8
           </h2>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
             Our curriculum blends Tamil Nadu Matriculation Board academic standards with activity-based inquiry, strong bilingual communication, and holistic values.

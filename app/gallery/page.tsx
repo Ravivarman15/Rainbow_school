@@ -35,7 +35,7 @@ export default function GalleryPage() {
             </span>
             <span>•</span>
             <span className="font-medium text-slate-600">
-              Pre-KG to Class 6
+              Pre-KG to Class 8
             </span>
           </div>
         </div>

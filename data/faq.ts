@@ -7,7 +7,7 @@ export interface FAQItem {
 export const schoolFAQs: FAQItem[] = [
   {
     question: "What classes/grades are offered at Rainbow Matriculation School, Orathi?",
-    answer: "The school offers education from Pre-Primary (Nursery, LKG, UKG) through Grade 6 (Primary with Upper Primary foundation).",
+    answer: "The school offers education from Pre-Primary (Nursery, LKG, UKG) through Grade 8 (Primary and Middle School).",
     category: "Academics"
   },
   {

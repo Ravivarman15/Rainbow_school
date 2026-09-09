@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Rainbow Matriculation School, Orathi",
   },
   description:
-    "Official website of Rainbow Matriculation School, Orathi (Chengalpattu/Kancheepuram District, Tamil Nadu). Established 2009. English medium co-educational schooling from Pre-KG to Class 6.",
+    "Official website of Rainbow Matriculation School, Orathi (Chengalpattu/Kancheepuram District, Tamil Nadu). Established 2009. English medium co-educational schooling from Pre-KG to Class 8.",
   keywords: [
     "Rainbow Matriculation School",
     "Rainbow School Orathi",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "Matriculation School Acharapakkam",
     "Schools in Madurantakam",
     "UDISE 33031003604",
-    "Pre-KG to Class 6 Orathi",
+    "Pre-KG to Class 8 Orathi",
     "Tamil Nadu Matriculation School",
   ],
   authors: [{ name: "Rainbow Matriculation School Administration" }],
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rainbow Matriculation School — Orathi, Tamil Nadu",
     description:
-      "English medium foundational and primary matriculation school in Orathi. Established in 2009. UDISE: 33031003604.",
+      "English medium foundational, primary and middle matriculation school in Orathi. Established in 2009. UDISE: 33031003604.",
     url: "https://rainboworathi.edu.in",
     siteName: "Rainbow Matriculation School, Orathi",
     locale: "en_IN",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rainbow Matriculation School — Orathi, Tamil Nadu",
     description:
-      "English medium school in Orathi from Pre-KG to Class 6. Verified UDISE: 33031003604.",
+      "English medium school in Orathi from Pre-KG to Class 8. Verified UDISE: 33031003604.",
   },
   robots: {
     index: true,
@@ -101,8 +101,8 @@ export default function RootLayout({
         },
         {
           "@type": "Course",
-          name: "Upper Primary Middle Transition",
-          description: "Comprehensive subject mastery for Grade 6",
+          name: "Middle School Education",
+          description: "Comprehensive subject mastery for Grades 6 to 8",
         },
       ],
     },

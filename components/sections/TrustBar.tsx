@@ -27,7 +27,7 @@ export const TrustBar: React.FC = () => {
     },
     {
       label: "Campus Scope",
-      value: "Pre-KG – Class 6",
+      value: "Pre-KG – Class 8",
       subtext: "Foundational & Middle Wing",
       icon: Layers,
       color: "text-amber-600 bg-amber-50 border-amber-200",

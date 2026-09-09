@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs sm:text-sm leading-relaxed text-slate-400 max-w-sm">
-              Providing disciplined, value-centered English-medium education from Pre-Primary through Grade 6 in Orathi, Tamil Nadu since 2009.
+              Providing disciplined, value-centered English-medium education from Pre-Primary through Grade 8 in Orathi, Tamil Nadu since 2009.
             </p>
 
             <div className="flex flex-wrap items-center gap-2 pt-1">
@@ -104,7 +104,7 @@ export const Footer: React.FC = () => {
               <li>
                 <Link href="/academics" className="text-slate-400 hover:text-emerald-400 flex items-center gap-1.5">
                   <ArrowRight className="h-3 w-3 text-slate-600" />
-                  <span>Middle Transition (Grade 6)</span>
+                  <span>Middle School (Grades 6 to 8)</span>
                 </Link>
               </li>
               <li>

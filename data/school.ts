@@ -67,13 +67,13 @@ export const schoolData: SchoolData = {
   tamilName: "ரெயின்போ மெட்ரிகுலேஷன் பள்ளி, ஒரத்தி",
   tagline: "Inspiring Curiosity, Nurturing Character, Fostering Excellence",
   description:
-    "Established in 2009 in Orathi (Acharapakkam Block, Tamil Nadu), Rainbow Matriculation School provides high-quality English medium foundational education from Pre-Primary through Grade 6, fostering strong values, holistic growth, and academic discipline.",
+    "Established in 2009 in Orathi (Acharapakkam Block, Tamil Nadu), Rainbow Matriculation School provides high-quality English medium foundational education from Pre-Primary through Grade 8, fostering strong values, holistic growth, and academic discipline.",
   udiseCode: "33031003604",
   establishedYear: 2009,
   management: "Private Unaided (Tamil Nadu Matriculation System)",
   schoolType: "Co-educational Day School",
   medium: "English (with Tamil language instruction)",
-  grades: "Pre-Primary (Nursery, LKG, UKG) to Grade 6",
+  grades: "Pre-Primary (Nursery, LKG, UKG) to Grade 8",
   gradeLevels: [
     {
       name: "Early Childhood / Pre-Primary",
@@ -88,9 +88,9 @@ export const schoolData: SchoolData = {
       verified: true,
     },
     {
-      name: "Middle School Transition",
-      span: "Grade 6",
-      description: "Core subject mastery in Science, Mathematics, Social Studies, English, and Tamil with structured analytical thinking.",
+      name: "Middle School Wing",
+      span: "Grades 6, 7 & 8",
+      description: "Core subject mastery in Science, Mathematics, Social Studies, English, and Tamil with structured analytical thinking and experimental learning.",
       verified: true,
     }
   ],

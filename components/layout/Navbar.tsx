@@ -60,7 +60,7 @@ export const Navbar: React.FC = () => {
     { label: "Academics", href: "/academics", icon: BookOpen },
     { label: "Campus & Facilities", href: "/campus", icon: Building2 },
     { label: "Student Life & Culture", href: "/student-life", icon: Sparkles },
-    { label: "Admissions 2026–27", href: "/admissions", icon: Users },
+    { label: "Admissions Open", href: "/admissions", icon: Users },
     { label: "Life at Rainbow", href: "/gallery", icon: Camera },
     { label: "Events & Calendar", href: "/events", icon: Calendar },
     { label: "Parents Desk", href: "/parents", icon: ShieldCheck },
@@ -305,7 +305,7 @@ export const Navbar: React.FC = () => {
                     <ShieldCheck className="h-4 w-4 text-emerald-600 shrink-0" />
                     <span>UDISE: {schoolData.udiseCode}</span>
                   </div>
-                  <span className="text-slate-500 font-medium">Pre-KG to Class 6</span>
+                  <span className="text-slate-500 font-medium">Pre-KG to Class 8</span>
                 </div>
               </div>
 
@@ -362,7 +362,7 @@ export const Navbar: React.FC = () => {
                   onClick={() => setMobileMenuOpen(false)}
                   className="w-full flex items-center justify-center gap-2 rounded-xl bg-indigo-600 py-3 text-sm font-bold text-white shadow-sm hover:bg-indigo-700 active:scale-98 transition-all"
                 >
-                  <span>Admission Enquiry 2026–27</span>
+                  <span>Admissions Open</span>
                   <ChevronRight className="h-4 w-4" />
                 </Link>
 

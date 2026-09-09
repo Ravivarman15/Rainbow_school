@@ -91,7 +91,7 @@ export const AdmissionEnquiryForm: React.FC<{ isCard?: boolean }> = ({ isCard = 
     <div className={isCard ? "rounded-3xl border border-slate-200 bg-white p-6 sm:p-10 shadow-xl" : ""}>
       <div className="mb-6 space-y-1">
         <h3 className="font-heading text-xl sm:text-2xl font-bold text-slate-900">
-          Admission Enquiry (2026–2027)
+          Admission Enquiry
         </h3>
         <p className="text-xs sm:text-sm text-slate-600">
           Submit your child&apos;s details to request an admission counseling appointment or school visit in Orathi.
@@ -168,6 +168,8 @@ export const AdmissionEnquiryForm: React.FC<{ isCard?: boolean }> = ({ isCard = 
                 <option value="Class 4">Class 4</option>
                 <option value="Class 5">Class 5</option>
                 <option value="Class 6">Class 6 (Upper Primary)</option>
+                <option value="Class 7">Class 7 (Middle School)</option>
+                <option value="Class 8">Class 8 (Middle School)</option>
               </select>
               <BookOpen className="absolute right-3 top-3 h-4 w-4 text-slate-400 pointer-events-none" />
             </div>

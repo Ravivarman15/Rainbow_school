@@ -19,9 +19,9 @@ import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 
 export const metadata: Metadata = {
-  title: "Admissions 2026–2027 | Process, Eligibility & Enquiry",
+  title: "Admissions | Process, Eligibility & Enquiry",
   description:
-    "Apply for admission at Rainbow Matriculation School in Orathi for Pre-KG to Class 6. View admission steps, required documents, and submit an online enquiry.",
+    "Apply for admission at Rainbow Matriculation School in Orathi for Pre-KG to Class 8. View admission steps, required documents, and submit an online enquiry.",
 };
 
 export default function AdmissionsPage() {
@@ -53,7 +53,7 @@ export default function AdmissionsPage() {
     "Photocopy of Student Aadhaar Card",
     "Photocopy of Parent / Guardian Aadhaar Card",
     "3 Recent Passport-Size Photographs of the Student",
-    "Transfer Certificate (TC) from recognized previous school (for Class 1 to 6)",
+    "Transfer Certificate (TC) from recognized previous school (for Class 1 to 8)",
     "Community Certificate (photocopy, if applicable)",
     "Immunization & Health Record copy (for Kindergarten applicants)",
   ];
@@ -64,13 +64,13 @@ export default function AdmissionsPage() {
       <section className="bg-gradient-to-b from-indigo-50/70 via-white to-slate-50 py-12 sm:py-16 border-b border-slate-200/80">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center sm:text-left">
           <Badge variant="rainbow" size="md">
-            Enrolment Guide 2026–2027
+            Enrolment Guide • Admissions Open
           </Badge>
           <h1 className="mt-4 font-heading text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
-            Admissions for Pre-KG to Class 6
+            Admissions for Pre-KG to Class 8
           </h1>
           <p className="mt-4 max-w-3xl text-sm sm:text-base text-slate-600 leading-relaxed">
-            Join the Rainbow family in Orathi. We provide a disciplined, caring, and values-rooted English medium education for children aged 3 to 12.
+            Join the Rainbow family in Orathi. We provide a disciplined, caring, and values-rooted English medium education for children aged 3 to 14.
           </p>
         </div>
       </section>
@@ -144,7 +144,7 @@ export default function AdmissionsPage() {
                   <Badge variant="verified" size="sm">Available</Badge>
                 </div>
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
-                  Rainbow provides safe, dependable school van and bus transit services for students from Pre-KG to Class 6 across Orathi and neighboring rural habitations.
+                  Rainbow provides safe, dependable school van and bus transit services for students from Pre-KG to Class 8 across Orathi and neighboring rural habitations.
                 </p>
                 <div className="space-y-2 rounded-xl bg-white/80 p-3.5 border border-indigo-100 text-xs text-slate-700">
                   <div className="font-semibold text-indigo-950 flex items-center gap-1.5 mb-1.5">

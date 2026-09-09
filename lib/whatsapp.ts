@@ -35,7 +35,7 @@ interface AdmissionFormData {
 
 export function buildAdmissionMessage(data: AdmissionFormData): string {
   const lines = [
-    `📋 *ADMISSION ENQUIRY — 2026–2027*`,
+    `📋 *ADMISSION ENQUIRY*`,
     `━━━━━━━━━━━━━━━━━━━━━`,
     `🏫 Rainbow Matriculation School, Orathi`,
     ``,

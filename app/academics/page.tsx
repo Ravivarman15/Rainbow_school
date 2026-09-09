@@ -18,7 +18,7 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "Academics & Curriculum | Pre-Primary to Grade 6",
+  title: "Academics & Curriculum | Pre-Primary to Grade 8",
   description:
     "Explore the comprehensive curriculum, bilingual literacy approach, and continuous assessment structure at Rainbow Matriculation School, Orathi.",
 };
@@ -33,7 +33,7 @@ export default function AcademicsPage() {
             Tamil Nadu Matriculation Stream
           </Badge>
           <h1 className="mt-4 font-heading text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
-            Comprehensive Academics from Kindergarten to Class 6
+            Comprehensive Academics from Kindergarten to Class 8
           </h1>
           <p className="mt-4 max-w-3xl text-sm sm:text-base text-slate-600 leading-relaxed">
             Our academic structure harmonizes foundational literacy, mathematical reasoning, bilingual communication, and activity-based learning to spark curiosity and build lifelong confidence.

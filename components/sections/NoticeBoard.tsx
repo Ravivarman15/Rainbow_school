@@ -7,10 +7,10 @@ import { Card } from "@/components/ui/Card";
 export const NoticeBoard: React.FC = () => {
   const notices = [
     {
-      title: "Admissions Open for Academic Year 2026–2027",
+      title: "Admissions Open — Pre-KG to Class 8",
       date: "Current Notification",
       tag: "Admissions",
-      description: "Applications are invited for Pre-KG, LKG, UKG and Grades 1 through 6. Prospective parents may visit the school office or submit online enquiry.",
+      description: "Applications are open for Pre-KG, LKG, UKG and Grades 1 through 8. Prospective parents may visit the school office or submit an online enquiry.",
       isImportant: true,
     },
     {

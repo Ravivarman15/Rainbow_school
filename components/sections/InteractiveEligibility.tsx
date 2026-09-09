@@ -24,7 +24,7 @@ import { cn } from "@/lib/utils";
 interface GradeGuide {
   grade: string;
   shortLabel: string;
-  category: "Early Childhood" | "Primary Wing" | "Upper Primary";
+  category: "Early Childhood" | "Primary Wing" | "Upper Primary" | "Middle School";
   categoryBadge: string;
   icon: React.ElementType;
   ageLimit: string;
@@ -42,7 +42,7 @@ const gradesData: GradeGuide[] = [
     category: "Early Childhood",
     categoryBadge: "🌱 Early Childhood Foundation",
     icon: Baby,
-    ageLimit: "2.5 – 3.5 Years (as of June 2026)",
+    ageLimit: "2.5 – 3.5 Years",
     focus: "Joyful sensory learning, shape and color recognition, spoken Tamil & English nursery rhymes, and social play.",
     subjects: [
       "Oral English Phonics & Rhymes",
@@ -60,7 +60,7 @@ const gradesData: GradeGuide[] = [
     category: "Early Childhood",
     categoryBadge: "🎨 Lower Kindergarten",
     icon: Palette,
-    ageLimit: "3.5 – 4.5 Years (as of June 2026)",
+    ageLimit: "3.5 – 4.5 Years",
     focus: "Alphabet stroke formation, basic counting (1–20), phonics sound blends, and bilingual conversational songs.",
     subjects: [
       "English Alphabet & Sound Blends",
@@ -70,7 +70,7 @@ const gradesData: GradeGuide[] = [
     ],
     keySkill: "Pencil control, counting recognition & group sharing",
     docHighlight: "Birth Certificate & 3 Passport Photos",
-    admissionStatus: "Admissions Open 2026–27",
+    admissionStatus: "Admissions Open",
   },
   {
     grade: "UKG",
@@ -78,7 +78,7 @@ const gradesData: GradeGuide[] = [
     category: "Early Childhood",
     categoryBadge: "📘 Upper Kindergarten",
     icon: BookOpen,
-    ageLimit: "4.5 – 5.5 Years (as of June 2026)",
+    ageLimit: "4.5 – 5.5 Years",
     focus: "Early two-letter reading, simple addition concepts, Tamil vowel mastery (உயிர் எழுத்துக்கள்), and nature exploration.",
     subjects: [
       "Sight Words & Early Reading",
@@ -88,7 +88,7 @@ const gradesData: GradeGuide[] = [
     ],
     keySkill: "Fluent two-letter reading & foundational numeracy",
     docHighlight: "Birth Certificate & Immunization Record Copy",
-    admissionStatus: "Admissions Open 2026–27",
+    admissionStatus: "Admissions Open",
   },
   {
     grade: "Class 1",
@@ -107,7 +107,7 @@ const gradesData: GradeGuide[] = [
     ],
     keySkill: "Independent sentence formation & mental arithmetic",
     docHighlight: "Birth Certificate, Aadhaar Copy & Photos",
-    admissionStatus: "Direct Entry Open",
+    admissionStatus: "Admissions Open",
   },
   {
     grade: "Class 2 & 3",
@@ -150,11 +150,11 @@ const gradesData: GradeGuide[] = [
   {
     grade: "Class 6",
     shortLabel: "Class 6",
-    category: "Upper Primary",
-    categoryBadge: "🎓 Upper Primary Middle Transition",
+    category: "Middle School",
+    categoryBadge: "🎓 Middle School Foundation",
     icon: GraduationCap,
     ageLimit: "11 – 12 Years",
-    focus: "Upper primary transition with distinct disciplines in Physics, Chemistry, Biology, History, Algebra, and Computer fundamentals.",
+    focus: "Upper primary & middle transition with distinct disciplines in Physics, Chemistry, Biology, History, Algebra, and Computer fundamentals.",
     subjects: [
       "English Literature & Composition",
       "Tamil Language (இரண்டாம் மொழி)",
@@ -165,7 +165,47 @@ const gradesData: GradeGuide[] = [
     ],
     keySkill: "Subject specialization, analytical science & abstract math",
     docHighlight: "Transfer Certificate (TC), Conduct Certificate & Marksheet",
-    admissionStatus: "Limited Seats for Class 6",
+    admissionStatus: "Admissions Open",
+  },
+  {
+    grade: "Class 7",
+    shortLabel: "Class 7",
+    category: "Middle School",
+    categoryBadge: "📚 Middle School Intermediate",
+    icon: BookOpen,
+    ageLimit: "12 – 13 Years",
+    focus: "Advanced science experiments, geometric proofs, algebraic equations, Tamil & English literature analysis, and historical inquiry.",
+    subjects: [
+      "Advanced English Prose & Poetry",
+      "Tamil Grammar & Literature",
+      "Mathematics (Linear Equations, Geometry, Percentages)",
+      "Science (Practical Demonstrations & Lab Concepts)",
+      "Social Science (Medieval History & Geography)",
+      "Computer Applications & Digital Skills",
+    ],
+    keySkill: "Scientific reasoning, essay formulation & computational logic",
+    docHighlight: "Transfer Certificate (TC) & Class 6 Marksheet",
+    admissionStatus: "Admissions Open",
+  },
+  {
+    grade: "Class 8",
+    shortLabel: "Class 8",
+    category: "Middle School",
+    categoryBadge: "🏆 Middle School Graduation Stage",
+    icon: Award,
+    ageLimit: "13 – 14 Years",
+    focus: "Preparation for secondary board standards: rigorous science concepts, higher algebra & geometry, essay writing, and public speaking.",
+    subjects: [
+      "English Language & Public Speaking",
+      "Tamil Advanced Literature & Grammar",
+      "Mathematics (Algebraic Identities, Mensuration, Statistics)",
+      "Physical & Biological Sciences",
+      "Social Science (Modern History, Constitution & Economics)",
+      "Computer Science & Applied Projects",
+    ],
+    keySkill: "High school readiness, analytical problem solving & leadership",
+    docHighlight: "Transfer Certificate (TC) & Class 7 Marksheet",
+    admissionStatus: "Admissions Open",
   },
 ];
 
@@ -180,7 +220,7 @@ export const InteractiveEligibility: React.FC = () => {
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-10">
           <div className="inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-white px-3.5 py-1 text-xs font-bold text-indigo-900 shadow-2xs">
             <Sparkles className="h-3.5 w-3.5 text-indigo-600" />
-            <span>PARENT DECISION GUIDE • 2026–2027</span>
+            <span>PARENT DECISION GUIDE • ADMISSIONS OPEN</span>
           </div>
 
           <h2 className="font-heading text-2xl sm:text-4xl font-extrabold tracking-tight text-slate-900 leading-tight">
