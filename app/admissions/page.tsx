@@ -70,7 +70,7 @@ export default function AdmissionsPage() {
             Admissions for Pre-KG to Class 8
           </h1>
           <p className="mt-4 max-w-3xl text-sm sm:text-base text-slate-600 leading-relaxed">
-            Join the Rainbow family in Orathi. We provide a disciplined, caring, and values-rooted English medium education for children aged 3 to 14.
+            Join the Rainbow family in Orathi, managed by <strong className="text-slate-900 font-semibold">Chendhur Murugar Charitable Trust</strong>. We provide a disciplined, caring, and values-rooted English medium education for children aged 3 to 14.
           </p>
         </div>
       </section>

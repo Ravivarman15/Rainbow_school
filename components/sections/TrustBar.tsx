@@ -44,6 +44,20 @@ export const TrustBar: React.FC = () => {
   return (
     <section className="relative z-20 -mt-8 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-xl">
+        {/* Trust Affiliation Strip */}
+        <div className="mb-5 pb-4 border-b border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs">
+          <div className="flex items-center gap-2">
+            <span className="flex h-2.5 w-2.5 rounded-full bg-emerald-500" />
+            <span className="text-slate-500 font-medium">Institutional Governance:</span>
+            <strong className="text-indigo-950 font-bold sm:text-sm">
+              Run under Chendhur Murugar Charitable Trust
+            </strong>
+          </div>
+          <span className="text-[11px] font-semibold text-slate-600 uppercase tracking-wider bg-slate-100 rounded-md px-2.5 py-1">
+            Private Unaided • Matriculation
+          </span>
+        </div>
+
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
           {trustItems.map((item, idx) => {
             const Icon = item.icon;

@@ -103,6 +103,9 @@ export const Navbar: React.FC = () => {
               <span className="text-[10px] sm:text-[11px] font-medium tracking-wide text-slate-500 uppercase">
                 Matriculation School • Est. 2009
               </span>
+              <span className="hidden xl:block text-[9.5px] font-semibold text-indigo-700">
+                Chendhur Murugar Charitable Trust
+              </span>
             </div>
           </Link>
 
@@ -299,13 +302,17 @@ export const Navbar: React.FC = () => {
               </div>
 
               {/* School Info Header Card */}
-              <div className="p-4 pb-1">
+              <div className="p-4 pb-1 space-y-2">
                 <div className="rounded-2xl bg-indigo-50/70 p-3.5 border border-indigo-100 flex items-center justify-between text-xs">
                   <div className="flex items-center gap-1.5 text-indigo-900 font-semibold">
                     <ShieldCheck className="h-4 w-4 text-emerald-600 shrink-0" />
                     <span>UDISE: {schoolData.udiseCode}</span>
                   </div>
                   <span className="text-slate-500 font-medium">Pre-KG to Class 8</span>
+                </div>
+                <div className="rounded-xl bg-slate-50 px-3 py-1.5 border border-slate-200 text-[11px] font-medium text-slate-700 flex items-center gap-1.5">
+                  <span className="text-indigo-600 font-bold">•</span>
+                  <span>Run by Chendhur Murugar Charitable Trust</span>
                 </div>
               </div>
 

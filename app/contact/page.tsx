@@ -122,7 +122,7 @@ export default function ContactPage() {
                     Campus Office Address
                   </h3>
                   <p className="text-xs text-slate-500 mt-0.5">
-                    Rainbow Matriculation School (UDISE: {schoolData.udiseCode})
+                    Rainbow Matriculation School (UDISE: {schoolData.udiseCode}) • Managed by Chendhur Murugar Charitable Trust
                   </p>
                 </div>
 

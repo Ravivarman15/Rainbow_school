@@ -13,6 +13,7 @@ import {
   CheckCircle2,
   Phone,
   Heart,
+  Building,
 } from "lucide-react";
 import { schoolData } from "@/data/school";
 import { Button } from "@/components/ui/Button";
@@ -48,7 +49,7 @@ export const Hero: React.FC = () => {
 
             {/* Sub-text */}
             <p className="mx-auto max-w-2xl text-base sm:text-lg leading-relaxed text-slate-600 lg:mx-0">
-              Welcome to <strong className="text-slate-900 font-semibold">{schoolData.name}</strong>, Orathi. A caring, disciplined English-medium institution fostering bilingual fluency, moral values, and academic confidence since 2009.
+              Welcome to <strong className="text-slate-900 font-semibold">{schoolData.name}</strong>, Orathi — run under the aegis of <strong className="text-indigo-900 font-semibold">Chendhur Murugar Charitable Trust</strong>. A caring, disciplined English-medium institution fostering bilingual fluency, moral values, and academic confidence since 2009.
             </p>
 
             {/* Primary Action Buttons */}
@@ -81,13 +82,13 @@ export const Hero: React.FC = () => {
               </div>
               <span className="hidden sm:inline text-slate-300">•</span>
               <div className="flex items-center gap-1.5 font-medium">
-                <GraduationCap className="h-4 w-4 text-indigo-600" />
-                <span>Est. <strong className="text-slate-900">{schoolData.establishedYear}</strong> (15+ Years)</span>
+                <Building className="h-4 w-4 text-indigo-600" />
+                <span>Trust: <strong className="text-slate-900">Chendhur Murugar Charitable Trust</strong></span>
               </div>
               <span className="hidden sm:inline text-slate-300">•</span>
               <div className="flex items-center gap-1.5 font-medium">
-                <MapPin className="h-4 w-4 text-amber-600" />
-                <span>Orathi, Chengalpattu Dist</span>
+                <GraduationCap className="h-4 w-4 text-indigo-600" />
+                <span>Est. <strong className="text-slate-900">{schoolData.establishedYear}</strong></span>
               </div>
             </div>
           </div>

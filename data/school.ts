@@ -6,6 +6,11 @@ export interface SchoolData {
   udiseCode: string;
   establishedYear: number;
   management: string;
+  trust: {
+    name: string;
+    role: string;
+    description: string;
+  };
   schoolType: string;
   medium: string;
   grades: string;
@@ -67,10 +72,15 @@ export const schoolData: SchoolData = {
   tamilName: "ரெயின்போ மெட்ரிகுலேஷன் பள்ளி, ஒரத்தி",
   tagline: "Inspiring Curiosity, Nurturing Character, Fostering Excellence",
   description:
-    "Established in 2009 in Orathi (Acharapakkam Block, Tamil Nadu), Rainbow Matriculation School provides high-quality English medium foundational education from Pre-Primary through Grade 8, fostering strong values, holistic growth, and academic discipline.",
+    "Established in 2009 in Orathi (Acharapakkam Block, Tamil Nadu) under the Chendhur Murugar Charitable Trust, Rainbow Matriculation School provides high-quality English medium foundational education from Pre-Primary through Grade 8, fostering strong values, holistic growth, and academic discipline.",
   udiseCode: "33031003604",
   establishedYear: 2009,
-  management: "Private Unaided (Tamil Nadu Matriculation System)",
+  management: "Private Unaided — Managed by Chendhur Murugar Charitable Trust",
+  trust: {
+    name: "Chendhur Murugar Charitable Trust",
+    role: "Governing & Sponsoring Trust",
+    description: "Dedicated to advancing high-quality, value-based rural education and youth empowerment in and around Orathi, Tamil Nadu.",
+  },
   schoolType: "Co-educational Day School",
   medium: "English (with Tamil language instruction)",
   grades: "Pre-Primary (Nursery, LKG, UKG) to Grade 8",
@@ -127,6 +137,12 @@ export const schoolData: SchoolData = {
       value: "2009",
       verified: true,
       source: "UDISE National Registry",
+    },
+    {
+      metric: "Governing Trust",
+      value: "Chendhur Murugar Charitable Trust",
+      verified: true,
+      source: "Institutional Management",
     },
     {
       metric: "UDISE Code",

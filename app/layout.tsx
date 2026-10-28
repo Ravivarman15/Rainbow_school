@@ -18,9 +18,11 @@ export const metadata: Metadata = {
     template: "%s | Rainbow Matriculation School, Orathi",
   },
   description:
-    "Official website of Rainbow Matriculation School, Orathi (Chengalpattu/Kancheepuram District, Tamil Nadu). Established 2009. English medium co-educational schooling from Pre-KG to Class 8.",
+    "Official website of Rainbow Matriculation School, Orathi (run under Chendhur Murugar Charitable Trust, Chengalpattu District, Tamil Nadu). Established 2009. English medium co-educational schooling from Pre-KG to Class 8.",
   keywords: [
     "Rainbow Matriculation School",
+    "Chendhur Murugar Charitable Trust",
+    "Chendhur Murugar Trust Orathi",
     "Rainbow School Orathi",
     "Schools in Orathi",
     "Matriculation School Acharapakkam",
@@ -31,7 +33,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Rainbow Matriculation School Administration" }],
   creator: "Rainbow Matriculation School",
-  publisher: "Rainbow Matriculation School, Orathi",
+  publisher: "Chendhur Murugar Charitable Trust",
   metadataBase: new URL("https://rainboworathi.edu.in"),
   alternates: {
     canonical: "/",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rainbow Matriculation School — Orathi, Tamil Nadu",
     description:
-      "English medium foundational, primary and middle matriculation school in Orathi. Established in 2009. UDISE: 33031003604.",
+      "English medium matriculation school in Orathi run under Chendhur Murugar Charitable Trust. Established 2009. UDISE: 33031003604.",
     url: "https://rainboworathi.edu.in",
     siteName: "Rainbow Matriculation School, Orathi",
     locale: "en_IN",
@@ -49,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rainbow Matriculation School — Orathi, Tamil Nadu",
     description:
-      "English medium school in Orathi from Pre-KG to Class 8. Verified UDISE: 33031003604.",
+      "English medium school in Orathi from Pre-KG to Class 8 under Chendhur Murugar Charitable Trust. Verified UDISE: 33031003604.",
   },
   robots: {
     index: true,
@@ -71,6 +73,11 @@ export default function RootLayout({
     identifier: schoolData.udiseCode,
     url: "https://rainboworathi.edu.in",
     foundingDate: "2009",
+    parentOrganization: {
+      "@type": "Organization",
+      name: "Chendhur Murugar Charitable Trust",
+      url: "https://rainboworathi.edu.in",
+    },
     address: {
       "@type": "PostalAddress",
       streetAddress: schoolData.address.village,

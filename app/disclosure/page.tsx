@@ -36,6 +36,10 @@ export default function DisclosurePage() {
               <span className="text-slate-500 font-medium">School Name:</span>
               <div className="font-bold text-slate-900 mt-0.5">{schoolData.name}</div>
             </div>
+            <div className="rounded-xl bg-indigo-50/70 p-4 border border-indigo-200/80">
+              <span className="text-indigo-900 font-medium">Governing / Sponsoring Trust:</span>
+              <div className="font-bold text-indigo-950 mt-0.5">Chendhur Murugar Charitable Trust</div>
+            </div>
             <div className="rounded-xl bg-slate-50 p-4 border border-slate-200/80">
               <span className="text-slate-500 font-medium">UDISE Code:</span>
               <div className="font-bold text-emerald-700 mt-0.5">{schoolData.udiseCode}</div>
@@ -50,11 +54,15 @@ export default function DisclosurePage() {
             </div>
             <div className="rounded-xl bg-slate-50 p-4 border border-slate-200/80">
               <span className="text-slate-500 font-medium">Management:</span>
-              <div className="font-bold text-slate-900 mt-0.5">Private Unaided</div>
+              <div className="font-bold text-slate-900 mt-0.5">Private Unaided — Governed by Chendhur Murugar Charitable Trust</div>
             </div>
             <div className="rounded-xl bg-slate-50 p-4 border border-slate-200/80">
               <span className="text-slate-500 font-medium">School Structure:</span>
-              <div className="font-bold text-slate-900 mt-0.5">Co-educational Day School</div>
+              <div className="font-bold text-slate-900 mt-0.5">Co-educational Day School (Pre-KG to Class 8)</div>
+            </div>
+            <div className="rounded-xl bg-slate-50 p-4 border border-slate-200/80">
+              <span className="text-slate-500 font-medium">Location:</span>
+              <div className="font-bold text-slate-900 mt-0.5">Orathi, Acharapakkam Block, Chengalpattu Dist</div>
             </div>
           </div>
         </Card>

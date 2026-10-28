@@ -43,14 +43,20 @@ export const Footer: React.FC = () => {
                 <p className="text-xs text-emerald-400 font-medium">
                   ரெயின்போ மெட்ரிகுலேஷன் பள்ளி, ஒரத்தி
                 </p>
+                <p className="text-[11px] text-indigo-300 font-medium mt-0.5">
+                  Run by Chendhur Murugar Charitable Trust
+                </p>
               </div>
             </div>
 
             <p className="text-xs sm:text-sm leading-relaxed text-slate-400 max-w-sm">
-              Providing disciplined, value-centered English-medium education from Pre-Primary through Grade 8 in Orathi, Tamil Nadu since 2009.
+              Providing disciplined, value-centered English-medium education from Pre-Primary through Grade 8 in Orathi, Tamil Nadu since 2009 under Chendhur Murugar Charitable Trust.
             </p>
 
             <div className="flex flex-wrap items-center gap-2 pt-1">
+              <Badge variant="outline" size="sm" className="border-indigo-800 bg-indigo-950/70 text-indigo-300 font-medium">
+                Chendhur Murugar Charitable Trust
+              </Badge>
               <Badge variant="outline" size="sm" className="border-slate-700 bg-slate-900 text-slate-300">
                 UDISE: {schoolData.udiseCode}
               </Badge>
@@ -162,9 +168,13 @@ export const Footer: React.FC = () => {
         {/* Bottom Legal & Mandatory Disclosure Bar */}
         <div className="mt-12 border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            © {new Date().getFullYear()} Rainbow Matriculation School, Orathi. All rights reserved.
+            © {new Date().getFullYear()} Rainbow Matriculation School, Orathi (Managed by Chendhur Murugar Charitable Trust). All rights reserved.
           </div>
           <div className="flex flex-wrap items-center gap-4">
+            <Link href="/disclosure" className="hover:text-slate-300">
+              Mandatory Disclosure
+            </Link>
+            <span>•</span>
             <Link href="/admissions" className="hover:text-slate-300">
               Admissions Policy
             </Link>

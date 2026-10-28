@@ -36,7 +36,7 @@ export default function AboutPage() {
             Nurturing Character & Knowledge in Orathi Since 2009
           </h1>
           <p className="mt-4 max-w-3xl text-sm sm:text-base text-slate-600 leading-relaxed">
-            Rainbow Matriculation School was established to provide children in Orathi and surrounding villages with high-quality English-medium education rooted in moral integrity and cultural pride.
+            Rainbow Matriculation School was established in 2009 under the visionary stewardship of <strong className="text-slate-900 font-semibold">Chendhur Murugar Charitable Trust</strong> to provide children in Orathi and surrounding rural communities with high-quality English-medium education rooted in moral integrity and cultural pride.
           </p>
         </div>
       </section>
@@ -44,28 +44,34 @@ export default function AboutPage() {
       {/* Verified Profile Card */}
       <section className="mx-auto -mt-6 max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-md">
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+            <div className="border-r border-slate-100 last:border-0 pr-4">
+              <span className="text-xs font-semibold text-slate-400 uppercase">Governing Body</span>
+              <div className="font-heading text-sm sm:text-base font-bold text-indigo-700 mt-1 line-clamp-2">
+                Chendhur Murugar Charitable Trust
+              </div>
+            </div>
             <div className="border-r border-slate-100 last:border-0 pr-4">
               <span className="text-xs font-semibold text-slate-400 uppercase">National Code</span>
-              <div className="font-heading text-lg sm:text-xl font-bold text-slate-900 mt-1">
+              <div className="font-heading text-base sm:text-lg font-bold text-slate-900 mt-1">
                 UDISE {schoolData.udiseCode}
               </div>
             </div>
             <div className="border-r border-slate-100 last:border-0 pr-4">
               <span className="text-xs font-semibold text-slate-400 uppercase">Founding Year</span>
-              <div className="font-heading text-lg sm:text-xl font-bold text-indigo-600 mt-1">
+              <div className="font-heading text-base sm:text-lg font-bold text-indigo-600 mt-1">
                 2009 (15+ Years)
               </div>
             </div>
             <div className="border-r border-slate-100 last:border-0 pr-4">
               <span className="text-xs font-semibold text-slate-400 uppercase">Educational Wing</span>
-              <div className="font-heading text-lg sm:text-xl font-bold text-slate-900 mt-1">
+              <div className="font-heading text-base sm:text-lg font-bold text-slate-900 mt-1">
                 Pre-KG to Class 8
               </div>
             </div>
             <div>
               <span className="text-xs font-semibold text-slate-400 uppercase">School Board</span>
-              <div className="font-heading text-lg sm:text-xl font-bold text-emerald-600 mt-1">
+              <div className="font-heading text-base sm:text-lg font-bold text-emerald-600 mt-1">
                 TN Matriculation
               </div>
             </div>
@@ -88,7 +94,7 @@ export default function AboutPage() {
               </div>
 
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Founded in 2009 in the rural belt of Orathi (Acharapakkam Block), Rainbow Matriculation School emerged to bridge the gap in accessible, quality English-medium education for local families.
+                Founded in 2009 in the rural belt of Orathi (Acharapakkam Block) under the philanthropic management of <strong className="text-slate-900 font-semibold">Chendhur Murugar Charitable Trust</strong>, Rainbow Matriculation School emerged to bridge the gap in accessible, quality English-medium education for local families.
               </p>
 
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
@@ -98,7 +104,7 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                 <div className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-3.5 shadow-xs">
                   <ShieldCheck className="h-5 w-5 text-emerald-600 shrink-0" />
-                  <span className="text-xs font-semibold text-slate-800">Pvt. Unaided Matriculation</span>
+                  <span className="text-xs font-semibold text-slate-800">Chendhur Murugar Charitable Trust</span>
                 </div>
                 <div className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white p-3.5 shadow-xs">
                   <Users className="h-5 w-5 text-indigo-600 shrink-0" />
@@ -229,9 +235,39 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Leadership Desk */}
+      {/* Leadership & Trust Governance */}
       <section className="py-16 sm:py-20 bg-white border-t border-slate-200">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-8">
+          {/* Trust Governance Overview */}
+          <div className="rounded-3xl border border-indigo-100 bg-gradient-to-br from-indigo-50/50 via-white to-slate-50 p-8 sm:p-12 shadow-sm">
+            <div className="max-w-3xl space-y-4">
+              <Badge variant="primary" size="sm">
+                Managing Trust & Governance
+              </Badge>
+              <h3 className="font-heading text-2xl sm:text-3xl font-bold text-slate-900">
+                Chendhur Murugar Charitable Trust
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Rainbow Matriculation School is established and administered under the registered aegis of <strong>Chendhur Murugar Charitable Trust</strong>. The Trust was formed with the noble goal of uplifting rural and semi-urban communities in and around Orathi, Tamil Nadu through accessible, quality English-medium education, holistic character cultivation, and modern student care facilities.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 text-xs">
+                <div className="rounded-xl border border-slate-200/80 bg-white p-3.5 shadow-2xs">
+                  <span className="text-slate-400 block font-medium">Trust Entity</span>
+                  <strong className="text-slate-900 font-semibold mt-0.5 block">Chendhur Murugar Charitable Trust</strong>
+                </div>
+                <div className="rounded-xl border border-slate-200/80 bg-white p-3.5 shadow-2xs">
+                  <span className="text-slate-400 block font-medium">Founding Vision</span>
+                  <strong className="text-slate-900 font-semibold mt-0.5 block">Rural Educational Upliftment</strong>
+                </div>
+                <div className="rounded-xl border border-slate-200/80 bg-white p-3.5 shadow-2xs">
+                  <span className="text-slate-400 block font-medium">Operational Status</span>
+                  <strong className="text-emerald-700 font-semibold mt-0.5 block">Active Since 2009</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* School Leadership */}
           <div className="rounded-3xl border border-slate-200 bg-slate-50/60 p-8 sm:p-12">
             <div className="max-w-3xl space-y-4">
               <Badge variant="outline" size="sm" className="bg-white border-slate-300">
@@ -241,7 +277,7 @@ export default function AboutPage() {
                 Message from the Desk of Administration
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                Rainbow Matriculation School is guided by an unwavering commitment to child welfare, progressive pedagogy, and institutional transparency. Our faculty and administrative staff work in close partnership with parents to ensure every child is nurtured in a safe, inspiring environment.
+                Guided by the principles of the Chendhur Murugar Charitable Trust, Rainbow Matriculation School is committed to child welfare, progressive pedagogy, and institutional transparency. Our educators and administrative staff work in close partnership with parents to ensure every child is nurtured in a safe, inspiring environment.
               </p>
               <div className="rounded-xl border border-slate-200 bg-white p-4 text-xs text-slate-500">
                 <em>Note: Formal personal messages from the Correspondent and Headmaster will be published in this section upon administrative submission.</em>
